@@ -1,0 +1,22 @@
+.ai-status {
+  margin-bottom: 10px;
+  font-weight: bold;
+  height: 24px;
+  color: #28a745;
+
+  &.thinking {
+    color: #007bff;
+    animation: pulse 1.5s infinite;
+  }
+}
+
+.disabled-board {
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
