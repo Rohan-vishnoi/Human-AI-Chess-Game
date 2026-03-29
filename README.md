@@ -29,13 +29,8 @@ Since you want to store results but *not* persist the live board state, here is 
 * **Database:** **Firestore** (to store Player Name, Color, and Game Status).
 * **Hosting:** Firebase Hosting or Google Cloud Storage + Cloud CDN.
 
-# low level and high level designs
+# Low level and High level designs
 
-Excellent! Let's move right into Phase 2. This is where we blueprint the system so that when we start writing code, we know exactly where everything goes.
-
-Here is the High-Level Design (HLD) and Low-Level Design (LLD) for your Angular + GCP + Gemini chess game.
-
----
 
 ### Phase 2: High-Level Design (HLD)
 
